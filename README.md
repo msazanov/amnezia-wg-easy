@@ -62,7 +62,7 @@ To automatically install & run wg-easy, simply run:
   --sysctl="net.ipv4.ip_forward=1" \
   --device=/dev/net/tun:/dev/net/tun \
   --restart unless-stopped \
-  ghcr.io/w0rng/amnezia-wg-easy
+  ghcr.io/msazanov/amnezia-wg-easy
 ```
 
 > 💡 Replace `YOUR_SERVER_IP` with your WAN IP, or a Dynamic DNS hostname.
